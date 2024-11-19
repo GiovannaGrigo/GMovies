@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.navbar{
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand{
+    color: #e50914;
+    font-weight: bold;
+}
+
+.navbar .nav-item .nav-link{
+    color: #e50914;
+}
+
+.scrolled{
+    background-color: black;
+}
