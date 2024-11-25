@@ -39,7 +39,7 @@ async function getTrendingMovies() {
     trendingContainer.innerHTML = '';
     for (let i = 0; i < trendings.length; i++) {
         trendingContainer.innerHTML += 
-            `<a href="detalhes.html?id=${trendings[i].id}">
+            `<a href="detalhes.html?id=${trendings[i].id}&media=${trendings[i].media_type}">
                 <img class="rowimg" src="https://image.tmdb.org/t/p/original/${trendings[i].poster_path}" alt="">
             </a>`
     }

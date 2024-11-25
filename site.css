@@ -88,3 +88,11 @@ body{
 .rowposter::-webkit-scrollbar{
     display: none;
 }
+
+#detalhes h1{
+    color: #e50914;
+}
+
+.btn-color{
+    color: #e50914;
+}
