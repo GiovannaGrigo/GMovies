@@ -96,3 +96,13 @@ body{
 .btn-color{
     color: #e50914;
 }
+
+.poster{
+    border-radius: 7px;
+}
+
+.tituloSobre{
+    color: #e50914;
+    text-align: center;
+    font-weight: bold;
+}
