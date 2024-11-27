@@ -113,16 +113,16 @@ body{
 
 .card-img-top{
     object-fit: cover;
-    height: 630px;
+    height: 500px;
     width: 100%;
 }
 
 .textDOFP{
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .card-uniform{
-    height: 730px;
+    height: 660px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -130,4 +130,5 @@ body{
 
 .textCenter{
     text-align: center;
+    font-size: 17px;
 }
