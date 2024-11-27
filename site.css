@@ -110,3 +110,24 @@ body{
 .linkColor{
     color: #e50914;
 }
+
+.card-img-top{
+    object-fit: cover;
+    height: 630px;
+    width: 100%;
+}
+
+.textDOFP{
+    font-size: 25px;
+}
+
+.card-uniform{
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textCenter{
+    text-align: center;
+}
