@@ -35,7 +35,7 @@ async function getMovie() {
     });
 
     // Buscar o Trailer
-    let trailer;
+    let trailer
     await fetch(`${baseUrl}${media}/${id}/videos?language=pt-br`, options)
         .then(res => res.json())
         .then(res => trailer = res.results)
@@ -45,7 +45,7 @@ async function getMovie() {
     if (trailer.length > 0) {
         document.querySelector('iframe').src = `https://www.youtube.com/embed/${trailer[0].key}`
     } else {
-        document.querySelector('#trailer').computedStyleMap.display = 'none';
+        document.querySelector('#trailer').style.display = 'none';
     }
 
     // Buscar o Elenco
