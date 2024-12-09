@@ -107,6 +107,11 @@ a.nav-link.active{
     border-radius: 7px;
 }
 
+.posterFav{
+    height: 500px;
+    width: 350px;
+}
+
 .tituloSobre{
     color: #e50914;
     text-align: center;
@@ -125,6 +130,13 @@ a.nav-link.active{
 
 .textDOFP{
     font-size: 22px;
+}
+
+.card-uniformFav{
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card-uniform{
@@ -160,8 +172,7 @@ a.nav-link.active{
     color: white;
 }
 
-
-.loader {
+.loader{
     position: absolute;
     left: 43%;
     top: 40%;
@@ -176,12 +187,12 @@ a.nav-link.active{
   }
   
   /* Safari */
-  @-webkit-keyframes spin {
+  @-webkit-keyframes spin{
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
   }
   
-  @keyframes spin {
+  @keyframes spin{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }

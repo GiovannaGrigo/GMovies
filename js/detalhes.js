@@ -6,6 +6,7 @@ const media = params.get('media');
 // Ao carregar a página executa as funções de buscar os dados
 document.addEventListener("DOMContentLoaded", async () => {
     await getMovie();
+    toggleLoading();
 });
 
 async function getMovie() {
