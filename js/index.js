@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", async () => {
     await banner();
     await getTrendingMovies();
+    toggleLoading();
 });
 
 async function banner() {
