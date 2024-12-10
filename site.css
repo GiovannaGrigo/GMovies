@@ -103,6 +103,11 @@ a.nav-link.active{
     color: #e50914;
 }
 
+.btnLogin-color{
+    color: white;
+    background-color: #e50914;
+}
+
 .poster{
     border-radius: 7px;
 }
